@@ -1,0 +1,119 @@
+body{
+    background-color: #3B060A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #3B060A;
+    width: 900px;
+    height: 670px;
+     
+    display: flexbox;
+    justify-content: center;
+}
+.heading{
+    width: 850px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dice-container{
+    width: 850px;
+    height: 400px;
+    margin-top: 75px;
+    margin-left: 20px;
+     
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#dice1-container{
+    width: 400px;
+    height: 300px;
+     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+#dice2-container{
+    width: 400px;
+    height: 300px;
+     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+h1{
+    color: #FFF287;
+    font-size: 100px;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+    "width" 100;
+}
+h2{
+    color: #FFF287;
+}
+#dice1{
+  width: 200px;
+  height: 200px;
+  background-color: #C83F12;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+
+#dice2{
+  width: 200px;
+  height: 200px;
+  background-color: #C83F12;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.dot {
+  width: 30px;
+  height: 30px;
+  background-color: #FFF287;
+  border-radius: 50%;
+  justify-self: center;
+  align-self: center;
+}
+.dot-1 { grid-column: 1; grid-row: 1; } 
+.dot-2 { grid-column: 2; grid-row: 1; } 
+.dot-3 { grid-column: 3; grid-row: 1; } 
+
+.dot-4 { grid-column: 1; grid-row: 2; } 
+.dot-5 { grid-column: 2; grid-row: 2; } 
+.dot-6 { grid-column: 3; grid-row: 2; }
+
+.dot-7 { grid-column: 1; grid-row: 3; } 
+.dot-8 { grid-column: 2; grid-row: 3; } 
+.dot-9 { grid-column: 3; grid-row: 3; }
+button{
+    height: 40px;
+    width: 100px;
+    margin-left: 400px;
+    margin-bottom: 10px;
+    border:2px solid #3B060A;
+    border-radius: 8px;
+    color: #3B060A;
+    background-color: #FFF287;
+    font-size: 15px;
+    font-weight: bold;
+}
